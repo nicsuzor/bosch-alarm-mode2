@@ -3,7 +3,7 @@
 import os
 import pytest
 
-from bosch_alarm_mode2.panel import Panel
+from ..panel import Panel
 
 @pytest.fixture(scope='session')
 def TestPanel():

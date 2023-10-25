@@ -71,21 +71,21 @@ class AREA_STATUS:
     ARMED = ALL_ARMED + PART_ARMED
 
     TEXT = {
-        0x00: "Unknown",
-        0x01: "All On / Away Armed",
-        0x02: "Part On Instant",
-        0x03: "Part On Delay / Stay Armed",
-        0x04: "Disarmed",
-        0x05: "All On Entry Delay / Away Armed Entry Delay",
-        0x06: "Part On Entry Delay / Stay Armed Entry Delay",
-        0x07: "All On Exit Delay / Away Armed Exit Delay",
-        0x08: "Part On Exit Delay / Stay Armed Exit Delay",
-        0x09: "All On Instant Armed",
-        0x0A: "Stay 1 On",
-        0x0B: "Stay 2 On",
-        0x0C: "Away On",
-        0x0D: "Away Exit Delay",
-        0x0E: "Away Entry Delay",
+        0x00: "unknown",
+        0x01: "all on / away armed",
+        0x02: "part on instant",
+        0x03: "part on delay / stay armed",
+        0x04: "disarmed",
+        0x05: "all on entry delay / away armed entry delay",
+        0x06: "part on entry delay / stay armed entry delay",
+        0x07: "all on exit delay / away armed exit delay",
+        0x08: "part on exit delay / stay armed exit delay",
+        0x09: "all on instant armed",
+        0x0a: "stay 1 on",
+        0x0b: "stay 2 on",
+        0x0c: "away on",
+        0x0d: "away exit delay",
+        0x0e: "away entry delay",
     }
 
 AREA_READY_NOT = 0x00
